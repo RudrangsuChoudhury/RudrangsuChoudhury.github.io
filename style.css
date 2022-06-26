@@ -5,7 +5,7 @@ My portfolio
 */
 
 body {
-	background: url('/clash-royale-2.jpg');
+	background: url('clash-royale-2.jpg');
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
 	background-attachment: fixed;
