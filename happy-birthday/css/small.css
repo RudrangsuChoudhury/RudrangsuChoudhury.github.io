@@ -1,0 +1,27 @@
+/* body{
+  background: blue;
+} */
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.hero img{
+
+  border-radius: 0;
+}
+aside.right,aside.left{
+  text-align: center;
+  float: inherit;
+}
+section.contact{
+  background: #1ba53b;
+  float: left;
+  line-height: 1.55;
+  width: auto;
+}
+section.intro{
+  background: black;
+  float: left;
+  width: auto;
+}

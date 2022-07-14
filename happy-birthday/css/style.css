@@ -1,0 +1,120 @@
+/*
+ * General Styles
+*/
+html{
+  font-size: 100%;
+  /* font-size: 16px; */
+}
+
+body {
+  background: url('../images/birthday.jpg');
+
+  font-family: 'Open Sans', arial, sans-serif;
+   /* Full Page Background Receipe  */
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  color: pink;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 4rem;
+  color: #19408d;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #19408d;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+
+
+}
+.hero{
+  line-height: 0;
+}
+.hero img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+aside.left{
+  float: left;
+
+}
+aside.right{
+  float: right;
+}
+aside{
+  margin-right: 24px;
+  margin-bottom: 0.625rem;
+}
+section.intro{
+  background: black;
+  float: left;
+}
+section.intro,section.contact{
+  padding: 40px;
+  width: 400px
+}
+section.contact{
+  background: #1ba53b;
+  float: left;
+  line-height: 1.55;
+}
+section.footer{
+  background: green;
+  padding: 40px;
+}
+.contact img{
+  width: 200px;
+  ;
+}
+
+
